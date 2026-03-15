@@ -93,12 +93,12 @@
   counters.forEach(el => cio.observe(el));
 
   /* ── Parallax on hero image ── */
-  const heroBg = document.querySelector('.hero-bg img');
-  if (heroBg) {
+  const heroVisual = document.querySelector('.hero-img-container img');
+  if (heroVisual) {
     window.addEventListener('scroll', () => {
       const y = window.scrollY;
-      if (y < window.innerHeight * 1.2) {
-        heroBg.style.transform = `translateY(${y * 0.25}px) scale(1.05)`;
+      if (y < window.innerHeight * 1.5) {
+        heroVisual.style.transform = `translateY(${y * 0.15}px)`;
       }
     }, { passive: true });
   }

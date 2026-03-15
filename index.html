@@ -21,12 +21,15 @@
   <!-- NAV -->
   <nav class="nav" id="nav">
     <div class="nav-inner">
-      <a href="#" class="nav-brand">Lamina Foundries</a>
+      <a href="#" class="nav-brand">
+        <img src="from me/lamina logo.png" alt="Lamina Foundries Logo" class="nav-logo" />
+      </a>
       <div class="nav-links" id="navLinks">
         <a href="#about">About</a>
         <a href="#products">Products</a>
         <a href="#quality">Quality</a>
         <a href="#clients">Clients</a>
+        <a href="#insights">Insights</a>
         <a href="#contact">Contact</a>
       </div>
       <button class="nav-burger" id="navBurger" aria-label="Menu"><span></span><span></span></button>
@@ -35,10 +38,6 @@
 
   <!-- =========== HERO =========== -->
   <section class="hero">
-    <div class="hero-bg" id="heroBg">
-      <img src="images/hero-foundry.png" alt="" />
-      <div class="hero-glow"></div>
-    </div>
     <div class="hero-content">
       <p class="hero-label anim-fade" data-delay="0">Precision Foundry — Est. 1983</p>
       <h1 class="hero-h1 anim-fade" data-delay="1">
@@ -50,6 +49,12 @@
       <div class="hero-actions anim-fade" data-delay="3">
         <a href="#products" class="btn">Explore Products</a>
         <a href="#about" class="btn-ghost">Our Story →</a>
+      </div>
+    </div>
+    <div class="hero-visual anim-fade" data-delay="4">
+      <div class="hero-img-container">
+        <img src="images/hero-foundry.png" alt="Foundry Operations" />
+        <div class="hero-glow"></div>
       </div>
     </div>
     <div class="hero-scroll">
@@ -131,9 +136,9 @@
           <h2 class="white">Engineered for the<br />most demanding<br />applications.</h2>
           <p class="ph-sub">Precision castings across international standards — DIN, BS, JIS, ASTM, NF-A, and IS.</p>
         </div>
-        <div class="ph-image anim-up">
+        <div class="ph-image-grid-top anim-up">
           <div class="img-rounded">
-            <img src="images/product-casting.png" alt="Precision cast component" />
+            <img src="from me/Gemini_Generated_Image_am1xguam1xguam1x.png" alt="Precision cast component" />
           </div>
         </div>
       </div>
@@ -141,63 +146,38 @@
 
     <!-- Product Grid -->
     <div class="wrap product-grid-section">
-      <div class="product-grid">
-        <a class="p-card anim-up" href="#products">
-          <div class="p-card-top">
-            <h3>Grey Cast Iron</h3>
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M7 17L17 7M17 7H7M17 7V17" />
-            </svg>
-          </div>
-          <p>FG 150 · FG 200 · FG 250 · FG 300</p>
-          <span class="p-standard">IS 210</span>
-        </a>
-        <a class="p-card anim-up" href="#products">
-          <div class="p-card-top">
-            <h3>SG Iron</h3>
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M7 17L17 7M17 7H7M17 7V17" />
-            </svg>
-          </div>
-          <p>SG 400/12 · SG 450/10 · SG 500/7</p>
-          <span class="p-standard">IS 1865</span>
-        </a>
-        <a class="p-card anim-up" href="#products">
-          <div class="p-card-top">
-            <h3>Motor Bodies</h3>
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M7 17L17 7M17 7H7M17 7V17" />
-            </svg>
-          </div>
-          <p>Precision-cast motor housings and enclosures for industrial applications.</p>
-        </a>
-        <a class="p-card anim-up" href="#products">
-          <div class="p-card-top">
-            <h3>Brake Drums & Discs</h3>
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M7 17L17 7M17 7H7M17 7V17" />
-            </svg>
-          </div>
-          <p>Export-grade machined brake components. Shipped to Germany since 1990.</p>
-        </a>
-        <a class="p-card anim-up" href="#products">
-          <div class="p-card-top">
-            <h3>Vacuum Pump Parts</h3>
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M7 17L17 7M17 7H7M17 7V17" />
-            </svg>
-          </div>
-          <p>High-precision components for pump systems and compressors.</p>
-        </a>
-        <a class="p-card anim-up" href="#products">
-          <div class="p-card-top">
-            <h3>Flywheels</h3>
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M7 17L17 7M17 7H7M17 7V17" />
-            </svg>
-          </div>
-          <p>Heavy-duty cast flywheels and compressor components in high-grade alloys.</p>
-        </a>
+      <div class="section-header anim-up">
+          <p class="label">Featured Solutions</p>
+          <h2>Our Core Categories</h2>
+      </div>
+      <div class="product-cards-grid">
+        <div class="p-card-v2 anim-up">
+            <div class="p-card-img">
+                <img src="from me/Gemini_Generated_Image_l9ch6ml9ch6ml9ch.png" alt="Grey Cast Iron" />
+            </div>
+            <div class="p-card-content">
+                <h3>Grey Cast Iron</h3>
+                <p>FG 150 · FG 200 · FG 250 · FG 300. Standards: IS 210.</p>
+            </div>
+        </div>
+        <div class="p-card-v2 anim-up">
+            <div class="p-card-img">
+                <img src="from me/Gemini_Generated_Image_m1l43cm1l43cm1l4.png" alt="SG Iron" />
+            </div>
+            <div class="p-card-content">
+                <h3>SG Iron</h3>
+                <p>SG 400/12 · SG 450/10 · SG 500/7. Standards: IS 1865.</p>
+            </div>
+        </div>
+        <div class="p-card-v2 anim-up">
+            <div class="p-card-img">
+                <img src="from me/Gemini_Generated_Image_sscuh1sscuh1sscu.png" alt="Machined Components" />
+            </div>
+            <div class="p-card-content">
+                <h3>Brake Drums & Discs</h3>
+                <p>Export-grade machined components. Shipped to Germany since 1990.</p>
+            </div>
+        </div>
       </div>
     </div>
   </section>
@@ -281,6 +261,36 @@
     </div>
   </section>
 
+  <!-- =========== BLOG / ARTICLES =========== -->
+  <section class="blog-section" id="insights">
+    <div class="wrap">
+      <div class="section-header anim-up">
+        <p class="label">Corporate Insights</p>
+        <h2>Enterprise Perspectives</h2>
+      </div>
+      <div class="blog-grid">
+        <article class="blog-card anim-up">
+          <div class="blog-date">March 2026</div>
+          <h3>The Future of Sustainable Foundry Practices in India</h3>
+          <p>Exploring how Lamina is pioneering energy-efficient casting processes...</p>
+          <a href="#" class="blog-link">Read More →</a>
+        </article>
+        <article class="blog-card anim-up">
+          <div class="blog-date">February 2026</div>
+          <h3>Advanced SG Iron: Meeting Global Aerospace Standards</h3>
+          <p>Technical deep dive into the properties of our latest SG iron alloys for demanding applications.</p>
+          <a href="#" class="blog-link">Read More →</a>
+        </article>
+        <article class="blog-card anim-up">
+            <div class="blog-date">January 2026</div>
+            <h3>Export Dynamics: The Shift Towards Precision Machining</h3>
+            <p>Why domestic manufacturers are investing heavily in CNC capabilities for the global market.</p>
+            <a href="#" class="blog-link">Read More →</a>
+          </article>
+      </div>
+    </div>
+  </section>
+
   <!-- =========== CTA =========== -->
   <section class="cta-block">
     <div class="wrap cta-inner anim-up">
@@ -303,6 +313,7 @@
         <a href="#products">Products</a>
         <a href="#quality">Quality</a>
         <a href="#clients">Clients</a>
+        <a href="#insights">Insights</a>
       </div>
       <div class="footer-links-col">
         <h5>Products</h5>
